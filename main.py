@@ -3,17 +3,17 @@ import pyfiglet
 from simple_chalk import chalk
 import  requests
 #api key from opemweather 
-API_KEY = "bde40fe662368cd52f1ab0a7762a5036"
+API_KEY = "YOUR_API"
 #BASE URL FOR OPENWEATHER API
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather?q="
 #https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}
-#https://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=-94.04&exclude=hourly,daily&appid=0a5293ca5b97edfd537506d2154de7e6
-#https://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=-94.04&exclude=hourly,daily&appid=0a5293ca5b97edfd537506d2154de7e6
+#https://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=-94.04&exclude=hourly,daily&appid=YOUR_API
+#https://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=-94.04&exclude=hourly,daily&appid=YOUR_API
 #https://api.openweathermap.org/data/2.5/weather?q=${*cityName*}&appid=${*API_key*}&units=metric
 #  |
 #  |
 # \/ This works now older one dosen't work
-#https://api.openweathermap.org/data/2.5/weather?q=London&APPID=bde40fe662368cd52f1ab0a7762a5036
+#https://api.openweathermap.org/data/2.5/weather?q=London&APPID=YOUR_API
 WEATHER_ICONS = {
     "01d": "🌞",
     "01n": "🌙",
